@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action = "ServletInfo2" method = "post">
+
+Username : <input type = "text" placeholder = "Name" name = "user">
+<p></p>
+Password : <input type = "text" placeholder = "Password" name ="pwd">
+<p></p>
+
+Gender:
+<br />
+<input type ="radio" name = "gender" value = "Male"/> Male
+<br />
+<input type ="radio" name = "gender" value = "Female"/> Female
+<br />
+<p></p>
+Email <input type ="Email" placeholder = "Email" name = "" value = ""> 
+<br />
+<p></p>
+Phone No: 
+<select>
+<option>201</option>
+<option>313</option>
+<option>321</option>
+<option>673</option>
+<option>732</option>
+<option>720</option>
+<option>800</option>
+<option>904</option>
+<option>992</option>
+
+</select>
+<input type ="number" placeholder = "9876******" name = "">
+<br>
+<br>
+Skills:
+<br>
+<input type ="checkbox" name = "skill" value="Java"/>Java
+<br />
+<input type ="checkbox" name = "skill" value=".Net"/>.NET
+<br />
+<input type ="checkbox" name = "skill" value="R"/>R
+<br />
+<input type ="checkbox" name = "skill" value="Python"/>python
+<br />
+<input type ="checkbox" name = "skill" value="Ruby"/>Ruby
+<br>
+<input type ="checkbox" name = "skill" value="C++"/>C++
+<br>
+<br>
+<input type = "Submit" value = "Submit" name = "">
+
+
+</form>
+</body>
+</html>
